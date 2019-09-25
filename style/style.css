@@ -1,0 +1,65 @@
+
+
+
+.heading_artist_div{
+    margin-top:5%;
+    margin-left: 35%;
+    height: 150px;
+    width: 25%;
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 0.5px;
+    
+}
+
+#artist_directory {
+   font-size: 30px;
+   margin-left: 5%;
+  
+}
+#artist_input {
+    margin-left: 5%;
+    height: 30px;
+    width: 80%;
+}
+
+.display_artists{
+    margin-left: 37.5%;
+    width: 20%;
+    height: 100px;
+    border-color: lightgrey;
+    border-style: solid;
+    border-width: 0.5px;
+
+
+}
+div p:last-child{
+    font-size: 30px;
+}
+
+img{
+    padding-top: 3%;
+    padding-left: 3%
+}
+
+.artistName{
+    
+    margin-top: -80px;
+    margin-left: 32%;
+    font-size: 19px;
+    font-style: bold;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.artistBackground{
+    margin-top: 10px;
+    margin-left: 32%;
+    margin-right: 5px;
+    font-size: 20px;
+    font-style: bold;
+    
+}
+#ss :hover{
+    background-color: yellow;
+    
+}
