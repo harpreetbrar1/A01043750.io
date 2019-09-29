@@ -8,45 +8,31 @@
             <link rel="stylesheet" type="text/css" href="./style/style.css">
     </head>
     <body>
-            <div class="heading_artist_div">
+            <div id = "main_div" class="heading_artist_div">
                 <p class="inside_heading" id = "artist_directory">Artist  Directory</p>
-                <input class="inside_heading" id="artist_input" type="text">
+                <form class = "artist_input">
+                    <input class = "artist_input"  type="text">
+                </form>
+                <button id ="add_btn_artist" onclick="showForm()">Add Artist</button>
             </div>
-            <div id="ss">
-            <div  class="display_artists">
-                <img src="https://randomuser.me/api/portraits/med/women/1.jpg">
-                <div class = "artistName"></div>
-                <div class = "artistBackground"></div>
-            </div>
-            <div  class="display_artists">
-                <img src="https://randomuser.me/api/portraits/med/men/2.jpg">
-                <div class = "artistName"></div>
-                <div class = "artistBackground"></div>
-            </div>
-            <div  class="display_artists">
-                <img src="https://randomuser.me/api/portraits/med/men/4.jpg">
-                <div class = "artistName"></div>
-                <div class = "artistBackground"></div>
-                
-            </div>
-            <div  class="display_artists">
-                <img src="https://randomuser.me/api/portraits/med/women/3.jpg">
-                <div class = "artistName"></div>
-                <div class = "artistBackground"></div>
-            </div>
-            <div  class="display_artists">
-                <img src="https://randomuser.me/api/portraits/med/women/5.jpg">
-                <div class = "artistName"></div>
-                <div class = "artistBackground"></div>
-            </div>
-        </div>
-            
-            
+                <div id ="artist_form">
+                <input class = "artist_input_form"  type="text" maxlength="40" ><br>
+                <input class = "artist_input_form"  type="text" maxlength="40" ><br>
+                <input class = "artist_input_form"  type="text" ><br>
+            </div>        
+            <button id ="add_btn"  onclick="getInformation()">Add</button>
+            <div class = "main_artist_div">
+                <!-- <div class ="artist" >
+                   <img class="artist_img" src = "https://randomuser.me/api/portraits/med/women/1.jpg">
+                   <div class = "artist_name">Kevin Sigma</div>
+                   <div class = "artist_about">Best in Town</div>
+                   <button class = "btn_delete">Delete</button>
+                </div> -->
+            </div> 
             
 
 
-
-    <script src="./scripts/main.js" ></script>
+    <script src="./scripts/index.js" ></script>
 
     </body>
 
