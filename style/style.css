@@ -157,3 +157,14 @@ img{
     margin-left: 40%;
     position: absolute; 
 }
+.main_artist_div{
+    display: block;
+}
+
+#artist_form{
+    display: none;
+}
+
+#add_btn{
+    display: none;
+}
